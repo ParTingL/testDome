@@ -42,6 +42,24 @@
 			 
 			 10、恢复文件到指定的某一版本
 			 git reset  --hard  '从log里查找所需要恢复文件的版本号'     版本号：也就是commit后的一串字母数字
+			 
+			 
+			 
+			 11、想从暂存区提交到远程仓库 需要电脑授权  需要生成ssh密匙
+			 生成ssh密匙：ssh-keygen -t rsa -C "你GitHub邮箱"
+			 
+			 生成完毕后需要去电脑路径中找：我的电脑-》用户-》用户文件夹-》.ssh(隐藏文件)-》id_rsa.pub(存放密匙)
+			 
+			 
+			 12、GitHub账户配置密匙   GitHub官网头像找到settings-》SSH and GPG keys=》new SSH key=》输入密匙备注标签
+			 
+			 13、暂存区=》远程仓库
+			 git remote add origin 
+			提交命令：
+			  git remote add origin https://github.com/ParTingL/testDome.git
+			  $ git push -u origin master
+			【注】提交过程中，可能需要输入用户名和密码
+			
 			 -->
 		
 		
