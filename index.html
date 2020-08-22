@@ -7,6 +7,10 @@
 	</head>
 	<body>
 			<!-- 
+			git config --global user.name "用户名"
+			git config --global user.email "邮箱地址"
+			
+			
 			 git操作具体步骤
 			 1、cd 路径 进入当前目录
 			 2、配置git基本操作
@@ -20,9 +24,28 @@
 			 git add  *        提交所有的文件
 			 提交文件完成后进行描述
 			 git commit -m “这一次提交的描述”
+			 
+			 5、查看当前工作区的状态  是否提交成功
+			 git status
+			 
+			6、 如果文件发生改变  你可以使用  
+			 checkout 被修改的文件名   进行上一次的恢复     从暂存区恢复文件到工作区
+			 
+			 也可以add *  重新提交更新所有新的内容    git commit -m “这一次提交的描述”
+			 
+			 
+			 7、通过git diff   可以查看当前修改了哪个地方  查看暂存区和工作区的区别
+			 
+			 8、clear  清屏操作
+			 
+			 9、git log  查看已经提交到暂存区的历史版本  可以进行文件的恢复
+			 
+			 10、恢复文件到指定的某一版本
+			 git reset  --hard  '从log里查找所需要恢复文件的版本号'     版本号：也就是commit后的一串字母数字
 			 -->
 		
 		
 			<h1>hello world</h1>
+			<h2>11111111</h2>
 	</body>
 </html>
